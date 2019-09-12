@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(61, 60, 60);
+}
+ 
+ #container {  
+    width: 1000px;
+    margin: 0px auto;
+  }
+
+header {
+    background-color: rgb(61, 60, 60);
+    border: 0px solid black; 
+    color: #ffffff;
+    margin: auto;
+    padding: 5px;
+    display: flex; 
+    justify-content: center;
+  }
+  
+main {
+   border: 0px solid #000000;
+   background-color: rgb(61, 60, 60);
+   padding: 0px;
+   margin-left: 0px;
+  }
+
+#bio {
+    display: flex;
+}
+   
+#bio img {
+    border: 4px solid  rgb(226, 224, 224);
+    margin: 2px;
+    width: 300px
+  }
+  
+  #bio-container {
+    border: 0px solid #000000;
+    flex: 1;
+    margin: 5px;
+  }
+  
+  #namedate {
+    display: flex;
+      justify-content: space-between;
+      padding-bottom: 10px;
+      font-size: 35px;
+      font-family: "patrick hand sc";
+    color: rgb(255, 255, 255);
+  }
+  
+  #namedate p {
+    margin: 0px;
+    font-size: 40px;
+  }
+
+  #chose {
+    background-color: rgb(226, 224, 224);
+    color: #000000;
+    padding: 20px;
+    margin: 0px;
+  }
+  
+  #chose ul {
+      padding: 0px;
+      list-style-position: inside;
+      font-family: 'Muli', sans-serif;
+      font-size: 12px;
+      
+  }
+  
+  #tech {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    border: 0px solid black;
+  }
+  
+  figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    max-width: 200px;
+  }
+  
+  figure img {
+    max-height: 200px;
+  }
+  
+  figcaption {
+      background-color: #222;
+      color: #fff;
+      font-family: "patrick hand sc";
+      font-size: 15px;
+      padding: 3px;
+      text-align: center;
+      background: rgba(3,3,3,0.6);
+      position: relative;
+      bottom: 20px;
+      padding: 6px;
+  }
+
+  #plans div{
+    background-color:  rgb(226, 224, 224);
+    padding: 15px;
+  }
+
+  #plans h3 {
+    color: #fff;
+    font-size: 35px;
+    font-family: "patrick hand sc";
+}
+
+h4 {
+    margin: 10px;
+    font-size: 40px;
+    font-family: "patrick hand sc";
+    color: rgb(29, 130, 177);
+}
+
+  #plans p {
+     color: #000000;
+     font-size: 12px;
+     font-family: 'Muli', sans-serif;
+     padding: 15px;
+  }
+
+  u {
+      color: rgb(1, 121, 219);
+  }
+  
+footer {
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px;
+  }
